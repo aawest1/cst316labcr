@@ -2,8 +2,8 @@ package banking.primitive.core;
 
 public class Checking extends Account {
 
-	private static final long serialVersionUID = 11L;
-	private int numWithdraws = 0;
+	private static final long _serialVersionUID = 11L;
+	private int _numWithdraws = 0;
 	
 	private Checking(String name) {
 		super(name);
